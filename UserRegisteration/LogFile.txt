@@ -1,1 +1,10 @@
-﻿
+﻿2020-10-26 19:57:15.4673|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateFirstName()
+2020-10-26 19:57:15.5851|INFO|UserRegisteration.Nlog|First name does not matches the required  criteria
+2020-10-26 19:57:18.2015|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateLastName()
+2020-10-26 19:57:18.2015|INFO|UserRegisteration.Nlog|Last name matches the required  criteria
+2020-10-26 19:57:32.0136|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-26 19:57:32.0136|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-26 19:57:40.9770|DEBUG|UserRegisteration.Nlog|Debug Successfull : Validatemobilenumber
+2020-10-26 19:57:40.9770|INFO|UserRegisteration.Nlog|Mobile number matches the required  criteria
+2020-10-26 19:57:51.9809|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidatePasswordRule1()
+2020-10-26 19:57:51.9809|INFO|UserRegisteration.Nlog|Password matches the required  criteria
