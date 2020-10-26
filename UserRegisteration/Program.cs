@@ -6,7 +6,12 @@ namespace UserRegisteration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ///Creates a instance of Validator class
+            Validator validator = new Validator();
+
+            Console.WriteLine("Enter the first name");
+            string firstName = Console.ReadLine();
+            validator.ValidateFirstName(firstName);
         }
     }
 }
