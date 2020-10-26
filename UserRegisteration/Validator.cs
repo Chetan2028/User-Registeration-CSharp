@@ -12,7 +12,8 @@ namespace UserRegisteration
 
         private static string REGEX_PATTERN_FOR_FIRST_NAME = "^[A-Z][a-zA-Z]{2,}$";
         private static string REGEX_PATTERN_FOR_LAST_NAME = "^[A-Z][a-zA-Z]{2,}$";
-        private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$"; 
+        private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$";
+        private static string REGEX_PATTERN_FOR_MOBILE_NUMBER = "^[1-9]{2}[ ][1-9][0-9]{9}";
 
         /// <summary>
         /// Validates the first name.
@@ -44,7 +45,7 @@ namespace UserRegisteration
             if (Regex.IsMatch(lastName, REGEX_PATTERN_FOR_LAST_NAME))
             {
                 Console.WriteLine(lastName + " is valid");
-                nlog.LogDebug("Debug Successfull : ValidateLastName method");
+                nlog.LogDebug("Debug Successfull : ValidateLastName()");
                 nlog.LogInfo("Last name matches the required  criteria");
             }
             else
@@ -72,6 +73,22 @@ namespace UserRegisteration
                 Console.WriteLine(email + " is invalid");
                 nlog.LogDebug("Debug UnSuccessfull : ValidateEmail()");
                 nlog.LogInfo("Email does not matches the required  criteria");
+            }
+        }
+
+        public void ValidateMobileNumber(string mobileNumber)
+        {
+            if (Regex.IsMatch(mobileNumber,REGEX_PATTERN_FOR_MOBILE_NUMBER))
+            {
+                Console.WriteLine(mobileNumber + " is valid");
+                nlog.LogDebug("Debug Successfull : Validatemobilenumber");
+                nlog.LogInfo("Mobile number matches the required  criteria");
+            }
+            else
+            {
+                Console.WriteLine(mobileNumber + " is invalid");
+                nlog.LogDebug("Debug UnSuccessfull : Validatemobilenumber()");
+                nlog.LogInfo("Mobile number does not matches the required  criteria");
             }
         }
     }

@@ -15,11 +15,15 @@ namespace UserRegisteration
 
             Console.WriteLine("Enter the last name");
             string lastName = Console.ReadLine();
-            validator.ValidateFirstName(lastName);
+            validator.ValidateLastName(lastName);
 
             Console.WriteLine("Enter the email");
             string email = Console.ReadLine();
             validator.ValidateEmailAddress(email);
+
+            Console.WriteLine("Enter your mobile number");
+            string mobileNumber = Console.ReadLine();
+            validator.ValidateMobileNumber(mobileNumber);
         }
     }
 }
