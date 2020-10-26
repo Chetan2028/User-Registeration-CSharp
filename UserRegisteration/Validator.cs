@@ -12,7 +12,7 @@ namespace UserRegisteration
 
         private static string REGEX_PATTERN_FOR_FIRST_NAME = "^[A-Z][a-zA-Z]{2,}$";
         private static string REGEX_PATTERN_FOR_LAST_NAME = "^[A-Z][a-zA-Z]{2,}$";
-        private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$";
+        private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.-+]?[0-9]*[@]{1}[a-zA-Z0-9]*[.]{1}com[.]?[a-z]{2,}$"; /// ^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$
         private static string REGEX_PATTERN_FOR_MOBILE_NUMBER = "^[1-9]{2}[ ][1-9][0-9]{9}";
         private static string REGEX_PATTERN_FOR_PASSWORD= "^(?=.*[!@#$%^&*]){1}(?=.*\\d)(?=.*[A-Z]).{8,}$";
 

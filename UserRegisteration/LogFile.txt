@@ -30,3 +30,5 @@
 2020-10-26 20:43:46.2277|INFO|UserRegisteration.Nlog|Mobile number does not matches the required  criteria
 2020-10-26 20:43:56.8264|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidatePasswordRule1()
 2020-10-26 20:43:56.8264|INFO|UserRegisteration.Nlog|Password matches the required  criteria
+2020-10-26 21:47:35.3829|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateEmail()
+2020-10-26 21:47:35.5102|INFO|UserRegisteration.Nlog|Email does not matches the required  criteria
