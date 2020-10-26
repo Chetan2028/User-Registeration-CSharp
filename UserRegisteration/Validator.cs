@@ -14,7 +14,7 @@ namespace UserRegisteration
         private static string REGEX_PATTERN_FOR_LAST_NAME = "^[A-Z][a-zA-Z]{2,}$";
         private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$";
         private static string REGEX_PATTERN_FOR_MOBILE_NUMBER = "^[1-9]{2}[ ][1-9][0-9]{9}";
-        private static string REGEX_PATTERN_FOR_PASSWORD_RULE1 = "^[a-zA-Z0-9]{8,}";
+        private static string REGEX_PATTERN_FOR_PASSWORD= "^(?=.*[A-Z]).{8,}$";
 
         /// <summary>
         /// Validates the first name.
@@ -98,20 +98,20 @@ namespace UserRegisteration
         }
 
         /// <summary>
-        /// Validates the password rule1.
+        /// Validates the password to check for minimum 8 characters and atleast one upper case character
         /// </summary>
-        /// <param name="passwordRule1">The password rule1.</param>
-         public void ValidatePasswordRule1(string passwordRule1)
+        /// <param name="password">The password.</param>
+        public void ValidatePassword(string password)
         {
-            if (Regex.IsMatch(passwordRule1,REGEX_PATTERN_FOR_PASSWORD_RULE1))
+            if (Regex.IsMatch(password,REGEX_PATTERN_FOR_PASSWORD))
             {
-                Console.WriteLine(passwordRule1 + " is valid");
+                Console.WriteLine(password + " is valid");
                 nlog.LogDebug("Debug Successfull : ValidatePasswordRule1()");
                 nlog.LogInfo("Password matches the required  criteria");
             }
             else
             {
-                Console.WriteLine(passwordRule1 + " is invalid");
+                Console.WriteLine(password + " is invalid");
                 nlog.LogDebug("Debug UnSuccessfull : ValidatePasswordRule1()");
                 nlog.LogInfo("Password does not matches the required  criteria");
             }

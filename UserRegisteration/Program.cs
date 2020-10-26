@@ -26,8 +26,8 @@ namespace UserRegisteration
             validator.ValidateMobileNumber(mobileNumber);
 
             Console.WriteLine("Enter your Password");
-            string passwordRule1 = Console.ReadLine();
-            validator.ValidatePasswordRule1(passwordRule1);
+            string password = Console.ReadLine();
+            validator.ValidatePassword(password);
         }
     }
 }
