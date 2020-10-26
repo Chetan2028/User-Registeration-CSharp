@@ -12,3 +12,21 @@
 2020-10-26 20:21:22.4483|INFO|UserRegisteration.Nlog|Password does not matches the required  criteria
 2020-10-26 20:21:42.8425|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidatePasswordRule1()
 2020-10-26 20:21:43.0524|INFO|UserRegisteration.Nlog|Password matches the required  criteria
+2020-10-26 20:40:51.2782|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateFirstName()
+2020-10-26 20:40:51.3812|INFO|UserRegisteration.Nlog|First name does not matches the required  criteria
+2020-10-26 20:40:52.4381|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateLastName()
+2020-10-26 20:40:52.4381|INFO|UserRegisteration.Nlog|Last name does not matches the required  criteria
+2020-10-26 20:40:54.0534|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateEmail()
+2020-10-26 20:40:54.0546|INFO|UserRegisteration.Nlog|Email does not matches the required  criteria
+2020-10-26 20:40:56.0049|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : Validatemobilenumber()
+2020-10-26 20:40:56.0049|INFO|UserRegisteration.Nlog|Mobile number does not matches the required  criteria
+2020-10-26 20:43:42.2782|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateFirstName()
+2020-10-26 20:43:42.3876|INFO|UserRegisteration.Nlog|First name does not matches the required  criteria
+2020-10-26 20:43:42.3876|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateLastName()
+2020-10-26 20:43:42.3876|INFO|UserRegisteration.Nlog|Last name does not matches the required  criteria
+2020-10-26 20:43:44.0611|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateEmail()
+2020-10-26 20:43:44.0611|INFO|UserRegisteration.Nlog|Email does not matches the required  criteria
+2020-10-26 20:43:46.2277|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : Validatemobilenumber()
+2020-10-26 20:43:46.2277|INFO|UserRegisteration.Nlog|Mobile number does not matches the required  criteria
+2020-10-26 20:43:56.8264|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidatePasswordRule1()
+2020-10-26 20:43:56.8264|INFO|UserRegisteration.Nlog|Password matches the required  criteria
