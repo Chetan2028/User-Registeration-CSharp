@@ -1,4 +1,1 @@
-﻿2020-10-26 16:08:05.5109|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateFirstName()
-2020-10-26 16:08:05.8029|INFO|UserRegisteration.Nlog|First name does not macthes the required  criteria
-2020-10-26 16:08:24.5053|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateFirstName()
-2020-10-26 16:08:24.7053|INFO|UserRegisteration.Nlog|First name macthes the required  criteria
+﻿
