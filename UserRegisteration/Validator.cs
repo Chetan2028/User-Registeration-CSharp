@@ -12,6 +12,7 @@ namespace UserRegisteration
 
         private static string REGEX_PATTERN_FOR_FIRST_NAME = "^[A-Z][a-zA-Z]{2,}$";
         private static string REGEX_PATTERN_FOR_LAST_NAME = "^[A-Z][a-zA-Z]{2,}$";
+        private static string REGEX_PATTERN_FOR_EMAIL = "^[a-z]{3,}[.][a-z]*[@][a-z]{2,}[.][a-z]{2,}[.][a-z]*$"; 
 
         /// <summary>
         /// Validates the first name.
@@ -24,13 +25,13 @@ namespace UserRegisteration
             {
                 Console.WriteLine(firstName + " is valid");
                 nlog.LogDebug("Debug Successfull : ValidateFirstName()");
-                nlog.LogInfo("First name macthes the required  criteria");
+                nlog.LogInfo("First name matches the required  criteria");
             }
             else
             {
                 Console.WriteLine(firstName + " is invalid");
                 nlog.LogDebug("Debug UnSuccessfull : ValidateFirstName()");
-                nlog.LogInfo("First name does not macthes the required  criteria");
+                nlog.LogInfo("First name does not matches the required  criteria");
             }
         }
 
@@ -50,7 +51,27 @@ namespace UserRegisteration
             {
                 Console.WriteLine(lastName + " is invalid");
                 nlog.LogDebug("Debug UnSuccessfull : ValidateLastName()");
-                nlog.LogInfo("Last name does not macthes the required  criteria");
+                nlog.LogInfo("Last name does not matches the required  criteria");
+            }
+        }
+
+        /// <summary>
+        /// Validates the email address.
+        /// </summary>
+        /// <param name="email">The email.</param>
+        public void ValidateEmailAddress(string email)
+        {
+            if (Regex.IsMatch(email, REGEX_PATTERN_FOR_EMAIL))
+            {
+                Console.WriteLine(email + " is valid ");
+                nlog.LogDebug("Debug Successfull : ValidateEmail method");
+                nlog.LogInfo("Email matches the required  criteria");
+            }
+            else
+            {
+                Console.WriteLine(email + " is invalid");
+                nlog.LogDebug("Debug UnSuccessfull : ValidateEmail()");
+                nlog.LogInfo("Email does not matches the required  criteria");
             }
         }
     }

@@ -1,1 +1,2 @@
-﻿
+﻿2020-10-26 17:08:34.9063|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-26 17:08:35.1477|INFO|UserRegisteration.Nlog|Email matches the required  criteria
