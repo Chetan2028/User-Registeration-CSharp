@@ -32,3 +32,35 @@
 2020-10-26 20:43:56.8264|INFO|UserRegisteration.Nlog|Password matches the required  criteria
 2020-10-26 21:47:35.3829|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateEmail()
 2020-10-26 21:47:35.5102|INFO|UserRegisteration.Nlog|Email does not matches the required  criteria
+2020-10-27 07:50:08.3669|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateFirstName()
+2020-10-27 07:50:08.8680|INFO|UserRegisteration.Nlog|First name does not matches the required  criteria
+2020-10-27 07:50:11.1160|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateLastName()
+2020-10-27 07:50:11.1174|INFO|UserRegisteration.Nlog|Last name does not matches the required  criteria
+2020-10-27 07:50:13.7501|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidateEmail()
+2020-10-27 07:50:13.7501|INFO|UserRegisteration.Nlog|Email does not matches the required  criteria
+2020-10-27 07:50:16.3481|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : Validatemobilenumber()
+2020-10-27 07:50:16.3481|INFO|UserRegisteration.Nlog|Mobile number does not matches the required  criteria
+2020-10-27 07:50:19.4393|DEBUG|UserRegisteration.Nlog|Debug UnSuccessfull : ValidatePasswordRule1()
+2020-10-27 07:50:19.4393|INFO|UserRegisteration.Nlog|Password does not matches the required  criteria
+2020-10-27 07:51:10.3648|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:51:10.5613|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:51:35.5539|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:51:35.7301|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:51:56.7927|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:51:56.9336|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:52:26.5811|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:52:26.7290|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:52:47.1634|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:52:47.3279|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:53:26.4584|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:53:26.6699|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:54:07.9476|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:54:08.0846|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:54:56.0144|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:54:56.1520|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:55:22.3961|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:55:22.5103|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:55:42.3998|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:55:42.5009|INFO|UserRegisteration.Nlog|Email matches the required  criteria
+2020-10-27 07:56:03.4400|DEBUG|UserRegisteration.Nlog|Debug Successfull : ValidateEmail method
+2020-10-27 07:56:03.6200|INFO|UserRegisteration.Nlog|Email matches the required  criteria
